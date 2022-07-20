@@ -187,4 +187,8 @@ footer{
         height: 400px;
         margin-top: 20px;
     }
+    h2:hover{
+        transform: scale(2);
+        transition-duration: 2s;
+    }
 }
