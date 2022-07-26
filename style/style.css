@@ -180,6 +180,8 @@ sub{
     padding: 3em;
 }
 
+/*Termina Peralta, empieza Responsive Design*/
+
 @media (min-width:500px){
     .grilla{
         display: grid;
