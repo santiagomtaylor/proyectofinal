@@ -110,7 +110,7 @@ footer{
 
 .grilla2{
     background-color: rgb(88, 24, 24);
-    padding: 5em;
+    padding: 3em;
 }
 
 .padre2{
@@ -173,6 +173,12 @@ sub{
     color: black;
 }
 
+/*Termina Contacto, empieza Peralta*/
+
+.grilla5{
+    background-color: rgb(88, 24, 24);
+    padding: 3em;
+}
 
 @media (min-width:500px){
     .grilla{
