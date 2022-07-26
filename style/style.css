@@ -87,6 +87,7 @@ footer{
     justify-items: center;
 }
 
+
 img{
     border: 8px solid black;
     width: 300px;
@@ -104,6 +105,74 @@ footer{
     width: 50px;
     height: 50px;
 }
+
+/*Lo que ofrecemos*/
+
+.grilla2{
+    background-color: rgb(88, 24, 24);
+    padding: 5em;
+}
+
+.padre2{
+    background-color: rgb(183, 94, 94);
+}
+
+.parrafoPadre2{
+    color: black;
+}
+
+.titulosPadre2{
+    color: rgb(88, 24, 24);
+    padding: 1em;
+}
+
+sub{
+    font-size: 20px;
+    font-weight: 750;
+}
+
+/*Termina lo que ofrecemos, empieza Sobre nosotros*/
+
+.grilla3{
+    background-color: rgb(88, 24, 24);
+    padding: 3em;
+}
+
+.padre3{
+    background-color: rgb(183, 94, 94);
+}
+
+.parrafoPadre3{
+    color:black;
+    padding: 3em;
+}
+
+.tituloPadre3{
+    color: rgb(88, 24, 24);
+    padding: 2em;
+}
+
+/*Termina Sobre nosotros, empieza Contacto*/
+
+.grilla4{
+    background-color: rgb(88, 24, 24);
+    padding: 3em;
+}
+
+.padre4{
+    background-color: rgb(183, 94, 94);
+    padding: 5em;
+}
+
+.titulosPadre4{
+    color: rgb(88, 24, 24);
+    padding: 1em;
+}
+
+.parrafosPadre4{
+    color: black;
+}
+
 
 @media (min-width:500px){
     .grilla{
