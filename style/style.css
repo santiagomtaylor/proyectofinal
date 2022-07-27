@@ -131,6 +131,12 @@ sub{
     font-weight: 750;
 }
 
+iframe{
+    padding: 1em;
+    width: 350px;
+    height: 250px;
+}
+
 /*Termina lo que ofrecemos, empieza Sobre nosotros*/
 
 .grilla3{
@@ -221,7 +227,7 @@ sub{
         "footer      footer      footer";
     }
 
-    a, p{
+    .aInicio, .parrafoPadre1{
         color: black;
     }
 
@@ -268,5 +274,19 @@ sub{
     h2:hover{
         transform: scale(2);
         transition-duration: 2s;
+    }
+}
+
+/* media de ofrecemos */
+
+@media (min-width:500px){
+    ul li{
+        padding: 0.3em;
+    }
+}
+
+@media (min-width:768px){
+    ul li{
+
     }
 }
