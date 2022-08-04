@@ -25,8 +25,8 @@ body{
     background-color: rgb(88, 24, 24);
 }
 
-header, h2{
-    color: red;
+h2{
+    color: rgb(88, 24, 24);
 }
 
 nav ul li{
@@ -34,12 +34,11 @@ nav ul li{
 }
 
 nav ul, h1, p, h3, h4{
-    color: red;
+    color: rgb(88, 24, 24);
 }
 
 a{
-    color: red;
-    text-decoration: none;
+    color: rgb(88, 24, 24);
 }
 
 
@@ -114,6 +113,10 @@ footer{
 
 /*Lo que ofrecemos*/
 
+.containerOfrecemos ul li{
+    list-style-type: none;
+}
+
 .grilla2{
     background-color: rgb(88, 24, 24);
     padding: 3em;
@@ -135,6 +138,10 @@ footer{
 sub{
     font-size: 20px;
     font-weight: 750;
+}
+
+.ulOfrecemos{
+    list-style-type: none;
 }
 
 iframe{
