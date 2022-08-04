@@ -14,11 +14,15 @@ body{
     min-height: 100vh;
 }
 
-header{
+.nav{
+    display: flex;
+    justify-content: end;
     padding-top: 2em;
     font-size: large;
-    display: grid;
-    justify-content: center;
+}
+
+.fondoNav{
+    background-color: rgb(88, 24, 24);
 }
 
 header, h2{
@@ -51,8 +55,9 @@ header{
     grid-area: header;
 }
 
-.franquicias{
-    grid-area: franquicias;
+.articleFranquicias{
+    grid-area: articleFranquicias;
+    background-color: rgb(183, 94, 94);
 }
 
 nav{
