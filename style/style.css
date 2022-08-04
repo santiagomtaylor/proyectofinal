@@ -34,7 +34,7 @@ nav ul li{
 }
 
 nav ul, h1, p, h3, h4{
-    color: rgb(88, 24, 24);
+    color: rgb(11, 10, 10);
 }
 
 a{
@@ -229,8 +229,8 @@ iframe{
 @media (min-width:768px){
     .grilla{
         background: rgb(36,1,0);
-        background: linear-gradient(90deg, rgba(36,1,0,1) 0%, rgba(235,18,12,1) 100%, rgba(0,212,255,1) 100%, rgba(121,9,9,1) 100%);
-        margin-bottom: 1.5em;
+        background: rgb(88, 24, 24);
+        margin-bottom: -0.5em;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
         "header      header      header"
@@ -252,7 +252,7 @@ iframe{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap:15px;
-        margin: 3em;
+        margin: 0;
     }
     img{
         width: 200px;
@@ -260,7 +260,6 @@ iframe{
         border: 5px solid black;
     }
     footer{
-        margin-top: 3em;
         background: rgb(36,1,0);
         background: linear-gradient(90deg, rgba(36,1,0,1) 0%, rgba(235,18,12,1) 100%, rgba(0,212,255,1) 100%, rgba(121,9,9,1) 100%);
 
