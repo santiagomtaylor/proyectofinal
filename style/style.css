@@ -22,7 +22,7 @@ body{
 }
 
 .fondoNav{
-    background-color: rgb(88, 24, 24);
+    background: rgb(88, 24, 24);
 }
 
 h2{
@@ -50,12 +50,8 @@ footer{
 
 /*declaro las áreas de mi grilla*/
 
-header{
-    grid-area: header;
-}
 
 .articleFranquicias{
-    grid-area: articleFranquicias;
     background-color: rgb(183, 94, 94);
 }
 
@@ -65,23 +61,10 @@ nav{
 
 .galeriaFranquicias{
     grid-area: galeria;
+    background-color: rgb(183, 94, 94);
 }
 
-footer{
-    grid-area: footer;
-}
-
-.grilla{
-    background-color: rgb(88, 24, 24);
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "nav"
-    "franquicias"
-    "galeria"
-    "footer";
-    gap: 20px;
-}
+/* terminan areas */
 
 .padre{
     background-color: rgb(183, 94, 94);
@@ -117,10 +100,6 @@ footer{
     list-style-type: none;
 }
 
-.grilla2{
-    background-color: rgb(88, 24, 24);
-    padding: 3em;
-}
 
 .padre2{
     background-color: rgb(183, 94, 94);
@@ -152,10 +131,6 @@ iframe{
 
 /*Termina lo que ofrecemos, empieza Sobre nosotros*/
 
-.grilla3{
-    background-color: rgb(88, 24, 24);
-    padding: 3em;
-}
 
 .padre3{
     background-color: rgb(183, 94, 94);
@@ -173,10 +148,6 @@ iframe{
 
 /*Termina Sobre nosotros, empieza Contacto*/
 
-.grilla4{
-    background-color: rgb(88, 24, 24);
-    padding: 3em;
-}
 
 .padre4{
     background-color: rgb(183, 94, 94);
@@ -192,60 +163,25 @@ iframe{
     color: black;
 }
 
-/*Termina Contacto, empieza Peralta*/
+/*Termina Contacto, empieza Staff(En proceso)*/
 
-.grilla5{
-    background-color: rgb(88, 24, 24);
-    padding: 3em;
-}
+
 
 /*Termina Peralta, empieza Responsive Design*/
 
 @media (min-width:500px){
-    .grilla{
-        display: grid;
-        grid-template-areas: 
-        "header      header"
-        "nav         nav"
-        "franquicias franquicias "
-        "galeria     galeria"
-        "footer      footer";
-    }
-    nav ul{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    img{
-        width: 350px;
-        height: 300px;
-    }
-
-    footer{
-        margin-top: 0;
-    }
+   
+    
 }
 
 @media (min-width:768px){
-    .grilla{
-        background: rgb(36,1,0);
-        background: rgb(88, 24, 24);
-        margin-bottom: -0.5em;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-        "header      header      header"
-        "nav         nav         nav"
-        "franquicias franquicias franquicias"
-        "galeria     galeria     galeria"
-        "footer      footer      footer";
+
+    .fondoNav{
+        background: linear-gradient(90deg, rgba(36,1,0,1) 0%, rgba(235,18,12,1) 100%, rgba(0,212,255,1) 100%, rgba(121,9,9,1) 100%)
     }
 
-    .aInicio, .parrafoPadre1{
+     .parrafoPadre1{
         color: black;
-    }
-
-    .galeriaFranquicias{
-        background-color: rgba(125, 46, 46, 0.564)
     }
 
     .padre{
@@ -253,6 +189,7 @@ iframe{
         grid-template-columns: 1fr 1fr 1fr;
         gap:15px;
         margin: 0;
+        margin-bottom: 1em;
     }
     img{
         width: 200px;
@@ -262,7 +199,6 @@ iframe{
     footer{
         background: rgb(36,1,0);
         background: linear-gradient(90deg, rgba(36,1,0,1) 0%, rgba(235,18,12,1) 100%, rgba(0,212,255,1) 100%, rgba(121,9,9,1) 100%);
-
     }
 }
 
