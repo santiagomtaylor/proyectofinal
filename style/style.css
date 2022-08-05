@@ -206,7 +206,7 @@ iframe{
 
     
     body{
-        background-color:black
+        background-color:black;
     }
     
     .padre{
@@ -217,8 +217,8 @@ iframe{
         margin: 0;
     }
     img{
-        width: 313px;
-        height: 311px;
+        width: 311px;
+        height: 310px;
         margin-top: 20px;
     }
     h2:hover{
@@ -227,16 +227,58 @@ iframe{
     }
 }
 
-/* media de ofrecemos */
+/*media de ofrecemos*/
 
 @media (min-width:500px){
-    ul li{
-        padding: 0.3em;
-    }
+    
 }
 
 @media (min-width:768px){
-    ul li{
+    
+}
 
-    }
+@media (min-width:1024px){
+
+}
+
+/*media queris de nosotros*/
+
+@media (min-width:500px){
+    
+}
+
+@media (min-width:768px){
+    
+}
+
+@media (min-width:1024px){
+
+}
+
+/*media queris de contacto*/
+
+@media (min-width:500px){
+    
+}
+
+@media (min-width:768px){
+    
+}
+
+@media (min-width:1024px){
+
+}
+
+/*media queris de staff*/
+
+@media (min-width:500px){
+    
+}
+
+@media (min-width:768px){
+    
+}
+
+@media (min-width:1024px){
+
 }
