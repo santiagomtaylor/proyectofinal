@@ -114,15 +114,6 @@ footer{
     padding: 1em;
 }
 
-sub{
-    font-size: 20px;
-    font-weight: 750;
-}
-
-.ulOfrecemos{
-    list-style-type: none;
-}
-
 iframe{
     padding: 1em;
     width: 350px;
@@ -238,7 +229,10 @@ iframe{
 }
 
 @media (min-width:1024px){
-
+    iframe{
+        width: 860px;
+        height: 615px;
+    }
 }
 
 /*media queris de nosotros*/
