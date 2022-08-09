@@ -21,17 +21,6 @@ nav{
     background-color: $backgroundRGB;
 }
 
-/* terminan areas, comienza inicio*/
-
-.padre{
-    background-color: $backgroundRGB;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 15px;
-    justify-items: center;
-}
-
 /*empieza Responsive Design*/
 
 @media (min-width:500px){

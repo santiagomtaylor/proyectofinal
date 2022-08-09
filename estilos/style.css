@@ -63,6 +63,19 @@ img {
   height: 50px;
 }
 
+.padre {
+  background-color: rgb(183, 94, 94);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 15px;
+  justify-items: center;
+}
+
+nav {
+  grid-area: nav;
+}
+
 .containerOfrecemos ul li {
   list-style-type: none;
 }
@@ -170,16 +183,6 @@ nav {
 .galeriaFranquicias {
   grid-area: galeria;
   background-color: rgb(183, 94, 94);
-}
-
-/* terminan areas, comienza inicio*/
-.padre {
-  background-color: rgb(183, 94, 94);
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  gap: 15px;
-  justify-items: center;
 }
 
 /*empieza Responsive Design*/
