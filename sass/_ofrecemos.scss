@@ -1,0 +1,45 @@
+.containerOfrecemos{
+        ul{
+   
+            li {
+                list-style-type: none;
+
+               }
+        }
+}
+
+
+.padre2{
+    background-color: rgb(183, 94, 94);
+}
+
+.parrafoPadre2{
+    color: black;
+}
+
+.titulosPadre2{
+    color: rgb(88, 24, 24);
+    padding: 1em;
+}
+
+iframe{
+    padding: 1em;
+    width: 350px;
+    height: 250px;
+}
+
+
+@media (min-width:500px){
+    
+}
+
+@media (min-width:768px){
+    
+}
+
+@media (min-width:1024px){
+    iframe{
+        width: 860px;
+        height: 615px;
+    }
+}

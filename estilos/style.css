@@ -45,30 +45,7 @@ footer {
   padding: 5em;
   background-color: rgb(88, 24, 24);
   margin-bottom: 0;
-}
-
-/*declaro las áreas de mi grilla*/
-.articleFranquicias {
-  background-color: rgb(183, 94, 94);
-}
-
-nav {
-  grid-area: nav;
-}
-
-.galeriaFranquicias {
-  grid-area: galeria;
-  background-color: rgb(183, 94, 94);
-}
-
-/* terminan areas */
-.padre {
-  background-color: rgb(183, 94, 94);
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  gap: 15px;
-  justify-items: center;
+  margin-top: 0;
 }
 
 img {
@@ -80,17 +57,12 @@ img {
      object-fit: cover;
 }
 
-footer {
-  margin-top: 0;
-}
-
 .imgLogo {
   border: none;
   width: 50px;
   height: 50px;
 }
 
-/*Lo que ofrecemos*/
 .containerOfrecemos ul li {
   list-style-type: none;
 }
@@ -114,7 +86,12 @@ iframe {
   height: 250px;
 }
 
-/*Termina lo que ofrecemos, empieza Sobre nosotros*/
+@media (min-width: 1024px) {
+  iframe {
+    width: 860px;
+    height: 615px;
+  }
+}
 .carousel-item {
   padding: 2em;
 }
@@ -142,7 +119,31 @@ iframe {
   height: 200px;
 }
 
-/*Termina Sobre nosotros, empieza Contacto*/
+@media (min-width: 500px) {
+  .carousel-item {
+    padding: 2em;
+  }
+}
+@media (min-width: 768px) {
+  .imgCarousel {
+    width: 600px;
+    height: 400px;
+    border: 5px solid black;
+  }
+  .carousel-item {
+    padding: 2em;
+  }
+}
+@media (min-width: 1024px) {
+  .imgCarousel {
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+  }
+  .carousel-item {
+    padding: 3em;
+  }
+}
 .padre4 {
   background-color: rgb(183, 94, 94);
   padding: 5em;
@@ -157,8 +158,31 @@ iframe {
   color: black;
 }
 
-/*Termina Contacto, empieza Staff(En proceso)*/
-/*Termina Peralta, empieza Responsive Design*/
+/*declaro las áreas de mi grilla*/
+.articleFranquicias {
+  background-color: rgb(183, 94, 94);
+}
+
+nav {
+  grid-area: nav;
+}
+
+.galeriaFranquicias {
+  grid-area: galeria;
+  background-color: rgb(183, 94, 94);
+}
+
+/* terminan areas, comienza inicio*/
+.padre {
+  background-color: rgb(183, 94, 94);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 15px;
+  justify-items: center;
+}
+
+/*empieza Responsive Design*/
 @media (min-width: 768px) {
   .fondoNav {
     background: linear-gradient(90deg, rgb(36, 1, 0) 0%, rgb(235, 18, 12) 100%, rgb(0, 212, 255) 100%, rgb(121, 9, 9) 100%);
@@ -206,39 +230,4 @@ iframe {
   .parrafoPadre3 {
     margin-top: 1em;
   }
-}
-/*media de ofrecemos*/
-@media (min-width: 1024px) {
-  iframe {
-    width: 860px;
-    height: 615px;
-  }
-}
-/*media queris de nosotros*/
-@media (min-width: 500px) {
-  .carousel-item {
-    padding: 2em;
-  }
-}
-@media (min-width: 768px) {
-  .imgCarousel {
-    width: 600px;
-    height: 400px;
-    border: 5px solid black;
-  }
-  .carousel-item {
-    padding: 2em;
-  }
-}
-@media (min-width: 1024px) {
-  .imgCarousel {
-    width: 600px;
-    height: 400px;
-    margin-top: 20px;
-  }
-  .carousel-item {
-    padding: 3em;
-  }
-}
-/*media queris de contacto*/
-/*media queris de staff*//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

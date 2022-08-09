@@ -1,58 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-}
-
-body{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.nav{
-    display: flex;
-    justify-content: end;
-    padding-top: 2em;
-    font-size: large;
-}
-
-.fondoNav{
-    background: rgb(88, 24, 24);
-}
-
-h2{
-    color: rgb(88, 24, 24);
-}
-
-nav ul li{
-    list-style-type: none;
-}
-
-nav ul, h1, p, h3, h4{
-    color: rgb(11, 10, 10);
-}
-
-a{
-    color: rgb(88, 24, 24);
-}
-
-
-footer{
-    padding: 5em;
-    background-color: rgb(88, 24, 24);
-    margin-bottom: 0;
-}
+@import "variableGlobal";
+@import "fuentes";
+@import "generales";
+@import "ofrecemos";
+@import "nosotros";
+@import "contacto";
+@import "staff";
 
 /*declaro las áreas de mi grilla*/
 
-
 .articleFranquicias{
-    background-color: rgb(183, 94, 94);
+    background-color: $backgroundRGB;
 }
 
 nav{
@@ -61,13 +18,13 @@ nav{
 
 .galeriaFranquicias{
     grid-area: galeria;
-    background-color: rgb(183, 94, 94);
+    background-color: $backgroundRGB;
 }
 
-/* terminan areas */
+/* terminan areas, comienza inicio*/
 
 .padre{
-    background-color: rgb(183, 94, 94);
+    background-color: $backgroundRGB;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -75,102 +32,7 @@ nav{
     justify-items: center;
 }
 
-
-img{
-    border: 8px solid black;
-    width: 300px;
-    height: 250px;
-    margin-top: 15px;
-    object-fit: cover;
-}
-
-footer{
-    margin-top: 0;
-}
-
-.imgLogo{
-    border: none;
-    width: 50px;
-    height: 50px;
-}
-
-/*Lo que ofrecemos*/
-
-.containerOfrecemos ul li{
-    list-style-type: none;
-}
-
-
-.padre2{
-    background-color: rgb(183, 94, 94);
-}
-
-.parrafoPadre2{
-    color: black;
-}
-
-.titulosPadre2{
-    color: rgb(88, 24, 24);
-    padding: 1em;
-}
-
-iframe{
-    padding: 1em;
-    width: 350px;
-    height: 250px;
-}
-
-/*Termina lo que ofrecemos, empieza Sobre nosotros*/
-
-.carousel-item{
-    padding: 2em;
-} 
-
-.padre3{
-    background-color: rgb(183, 94, 94);
-}
-
-.parrafoPadre3{
-    color:black;
-    padding: 3em;
-}
-
-.tituloPadre3{
-    padding: 2em;
-}
-
-.map-responsive{
-    width: 350px;
-    height: 200px;
-}
-
-.map-responsive iframe{
-    width: 350px;
-    height: 200px;
-}
-
-/*Termina Sobre nosotros, empieza Contacto*/
-
-
-.padre4{
-    background-color: rgb(183, 94, 94);
-    padding: 5em;
-}
-
-.titulosPadre4{
-    color: rgb(88, 24, 24);
-    padding: 1em;
-}
-
-.parrafosPadre4{
-    color: black;
-}
-
-/*Termina Contacto, empieza Staff(En proceso)*/
-
-
-
-/*Termina Peralta, empieza Responsive Design*/
+/*empieza Responsive Design*/
 
 @media (min-width:500px){
    
@@ -180,7 +42,7 @@ iframe{
 @media (min-width:768px){
 
     .fondoNav{
-        background: linear-gradient(90deg, rgba(36,1,0,1) 0%, rgba(235,18,12,1) 100%, rgba(0,212,255,1) 100%, rgba(121,9,9,1) 100%)
+        background: linear-gradient(90deg, rgb(36, 1, 0) 0%, rgb(235, 18, 12) 100%, rgb(0, 212, 255) 100%, rgb(121, 9, 9) 100%);
     }
 
      .parrafoPadre1{
@@ -201,7 +63,7 @@ iframe{
     }
     footer{
         background: rgb(36,1,0);
-        background: linear-gradient(90deg, rgba(36,1,0,1) 0%, rgba(235,18,12,1) 100%, rgba(0,212,255,1) 100%, rgba(121,9,9,1) 100%);
+        background: linear-gradient(90deg, rgb(36, 1, 0) 0%, rgb(235, 18, 12) 100%, rgb(0, 212, 255) 100%, rgb(121, 9, 9) 100%);
     }
 }
 
@@ -231,79 +93,4 @@ iframe{
     .parrafoPadre3{
         margin-top: 1em;
     }
-}
-
-/*media de ofrecemos*/
-
-@media (min-width:500px){
-    
-}
-
-@media (min-width:768px){
-    
-}
-
-@media (min-width:1024px){
-    iframe{
-        width: 860px;
-        height: 615px;
-    }
-}
-
-/*media queris de nosotros*/
-
-@media (min-width:500px){
-    .carousel-item{
-        padding: 2em;
-    }
-}
-
-@media (min-width:768px){
-    .imgCarousel{
-        width: 600px;
-        height: 400px;
-        border: 5px solid black;
-    }
-    .carousel-item{
-        padding: 2em;
-    }
-}
-
-@media (min-width:1024px){
-    .imgCarousel{
-        width: 600px;
-        height: 400px;
-        margin-top: 20px;
-    }
-    .carousel-item{
-        padding: 3em;
-    }
-}
-
-/*media queris de contacto*/
-
-@media (min-width:500px){
-    
-}
-
-@media (min-width:768px){
-    
-}
-
-@media (min-width:1024px){
-
-}
-
-/*media queris de staff*/
-
-@media (min-width:500px){
-    
-}
-
-@media (min-width:768px){
-    
-}
-
-@media (min-width:1024px){
-
 }
