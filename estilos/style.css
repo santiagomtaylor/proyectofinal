@@ -228,6 +228,9 @@ iframe{
         transform: scale(2);
         transition-duration: 2s;
     }
+    .parrafoPadre3{
+        margin-top: 1em;
+    }
 }
 
 /*media de ofrecemos*/
