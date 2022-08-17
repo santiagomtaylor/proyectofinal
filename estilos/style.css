@@ -149,7 +149,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .imgCarousel {
-    width: 600px;
+    width: 496px;
     height: 400px;
     margin-top: 20px;
   }
@@ -169,6 +169,24 @@ iframe {
 
 .parrafosPadre4 {
   color: black;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn--numerosDeContacto {
+  background-color: #3a5789;
+}
+
+.btn--email {
+  background-color: #55acee;
+}
+
+.btn--horarios {
+  background-color: #C25E30;
 }
 
 /*declaro las áreas de mi grilla*/

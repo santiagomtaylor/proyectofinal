@@ -5,6 +5,7 @@
 @import "nosotros";
 @import "contacto";
 @import "staff";
+@import "operaciones";
 
 /*declaro las áreas de mi grilla*/
 
@@ -23,8 +24,7 @@ nav{
 
 /*empieza Responsive Design*/
 
-@media (min-width:500px){
-   
+@media (min-width:500px){ 
     
 }
 
@@ -34,7 +34,7 @@ nav{
         background: linear-gradient(90deg, rgb(36, 1, 0) 0%, rgb(235, 18, 12) 100%, rgb(0, 212, 255) 100%, rgb(121, 9, 9) 100%);
     }
 
-     .parrafoPadre1{
+.parrafoPadre1{
         color: black;
     }
 

@@ -1,0 +1,14 @@
+
+/* MAP*/
+
+$info: (
+    numeros: #3f5c8f,
+    email: #55acee,
+    horarios: #C25E30,
+);
+@each $nosotros, $color in $info{
+    .btn--#{$nosotros}{
+        background-color: $color;
+    }
+}
+
