@@ -9,4 +9,10 @@
 
 .btn--horarios {
   background-color: #C25E30;
+}
+
+/*extend*/
+.estilosExtend, .pruebaExtend {
+  border: 4px solid black;
+  background-color: yellow;
 }/*# sourceMappingURL=operaciones.css.map */

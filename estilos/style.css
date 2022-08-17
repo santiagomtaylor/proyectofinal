@@ -54,7 +54,7 @@ img {
   height: 250px;
   margin-top: 15px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .imgLogo {
@@ -177,7 +177,7 @@ iframe {
   align-items: center;
 }
 
-.btn--numerosDeContacto {
+.btn--numeros {
   background-color: #3a5789;
 }
 
@@ -187,6 +187,11 @@ iframe {
 
 .btn--horarios {
   background-color: #C25E30;
+}
+
+.estilosExtend, .pruebaExtend {
+  border: 4px solid black;
+  background-color: yellow;
 }
 
 /*declaro las áreas de mi grilla*/

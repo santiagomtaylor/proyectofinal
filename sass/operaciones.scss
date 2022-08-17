@@ -12,3 +12,13 @@ $info: (
     }
 }
 
+/*extend*/
+
+.estilosExtend{
+    border: 4px solid black ;
+    background-color: yellow;
+}
+
+.pruebaExtend{
+    @extend .estilosExtend;
+}
