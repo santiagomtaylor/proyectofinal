@@ -11,8 +11,13 @@
   background-color: #C25E30;
 }
 
-/*extend*/
+/*Extend*/
 .estilosExtend, .pruebaExtend {
   border: 4px solid black;
+  background-color: yellow;
+}
+
+/*Mixin*/
+.parrafoPadre3 {
   background-color: yellow;
 }/*# sourceMappingURL=operaciones.css.map */

@@ -12,7 +12,7 @@ $info: (
     }
 }
 
-/*extend*/
+/*Extend*/
 
 .estilosExtend{
     border: 4px solid black ;
@@ -22,3 +22,15 @@ $info: (
 .pruebaExtend{
     @extend .estilosExtend;
 }
+
+/*Mixin*/
+
+@mixin color($background-color){
+    background-color: $background-color;
+}
+
+.parrafoPadre3{
+    @include color (yellow);
+}
+
+

@@ -54,7 +54,7 @@ img {
   height: 250px;
   margin-top: 15px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .imgLogo {
@@ -177,8 +177,9 @@ iframe {
   align-items: center;
 }
 
+/* MAP*/
 .btn--numeros {
-  background-color: #3a5789;
+  background-color: #3f5c8f;
 }
 
 .btn--email {
@@ -189,8 +190,14 @@ iframe {
   background-color: #C25E30;
 }
 
+/*Extend*/
 .estilosExtend, .pruebaExtend {
   border: 4px solid black;
+  background-color: yellow;
+}
+
+/*Mixin*/
+.parrafoPadre3 {
   background-color: yellow;
 }
 
