@@ -54,7 +54,7 @@ img {
   height: 250px;
   margin-top: 15px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .imgLogo {
