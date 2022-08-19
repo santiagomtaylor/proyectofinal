@@ -1,22 +1,9 @@
 
-/* MAP*/
-
-$info: (
-    numeros: #3f5c8f,
-    email: #55acee,
-    horarios: #C25E30,
-);
-@each $nosotros, $color in $info{
-    .btn--#{$nosotros}{
-        background-color: $color;
-    }
-}
-
 /*Extend*/
 
 .estilosExtend{
     border: 4px solid black ;
-    background-color: yellow;
+    background-color: rgb(88, 24, 24);
 }
 
 .pruebaExtend{
@@ -30,7 +17,7 @@ $info: (
 }
 
 .parrafoPadre3{
-    @include color (yellow);
+    @include color (rgb(88, 24, 24));
 }
 
 

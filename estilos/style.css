@@ -177,28 +177,15 @@ iframe {
   align-items: center;
 }
 
-/* MAP*/
-.btn--numeros {
-  background-color: #3f5c8f;
-}
-
-.btn--email {
-  background-color: #55acee;
-}
-
-.btn--horarios {
-  background-color: #C25E30;
-}
-
 /*Extend*/
 .estilosExtend, .pruebaExtend {
   border: 4px solid black;
-  background-color: yellow;
+  background-color:rgb(88, 24, 24);
 }
 
 /*Mixin*/
 .parrafoPadre3 {
-  background-color: yellow;
+  background-color: rgb(88, 24, 24);
 }
 
 /*declaro las áreas de mi grilla*/
