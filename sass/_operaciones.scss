@@ -6,6 +6,7 @@
 }
 
 body {
+    background-color: rgb(183, 94, 94);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
@@ -211,7 +212,10 @@ nav {
 }
 
 @media (min-width: 768px) {
-    .fondoNav {
+body {
+    background-color: rgb(183, 94, 94);
+}
+.fondoNav {
     background: linear-gradient(90deg, rgb(36, 1, 0) 0%, rgb(235, 18, 12) 100%, rgb(0, 212, 255) 100%, rgb(121, 9, 9) 100%);
 }
 .parrafoPadre1 {
@@ -236,7 +240,7 @@ footer {
 }
 @media (min-width: 1024px) {
 body {
-    background-color: black;
+    background-color: rgb(183, 94, 94);
 }
 .padre {
     padding: 1.5em;
