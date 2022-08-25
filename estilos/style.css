@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
@@ -163,7 +162,6 @@ iframe {
 
 .titulosPadre4 {
   color: rgb(88, 24, 24);
-  padding: 1em;
 }
 
 .parrafosPadre4 {
@@ -253,32 +251,6 @@ nav {
   list-style-type: none;
 }
 
-.padre2 {
-  background-color: rgb(183, 94, 94);
-}
-
-.parrafoPadre2 {
-  color: black;
-}
-
-.titulosPadre2 {
-  color: rgb(88, 24, 24);
-  padding: 1em;
-}
-
-.padre3 {
-  background-color: rgb(183, 94, 94);
-}
-
-.parrafoPadre3 {
-  color: black;
-  padding: 3em;
-}
-
-.tituloPadre3 {
-  padding: 2em;
-}
-
 .map-responsive {
   width: 350px;
   height: 200px;
@@ -289,38 +261,10 @@ nav {
   height: 200px;
 }
 
-.padre4 {
-  background-color: rgb(183, 94, 94);
-  padding: 5em;
-}
-
-.titulosPadre4 {
-  color: rgb(88, 24, 24);
-  padding: 1em;
-}
-
-.parrafosPadre4 {
-  color: black;
-}
-
 .formulario {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/*declaro las áreas de mi grilla*/
-.articleFranquicias {
-  background-color: rgb(183, 94, 94);
-}
-
-nav {
-  grid-area: nav;
-}
-
-.galeriaFranquicias {
-  grid-area: galeria;
-  background-color: rgb(183, 94, 94);
 }
 
 /*empieza Responsive Design*/
@@ -397,20 +341,6 @@ nav {
   }
 }
 /*# sourceMappingURL=operaciones.css.map */
-/*declaro las áreas de mi grilla*/
-.articleFranquicias {
-  background-color: rgb(183, 94, 94);
-}
-
-nav {
-  grid-area: nav;
-}
-
-.galeriaFranquicias {
-  grid-area: galeria;
-  background-color: rgb(183, 94, 94);
-}
-
 /*empieza Responsive Design*/
 @media (min-width: 768px) {
   .fondoNav {
