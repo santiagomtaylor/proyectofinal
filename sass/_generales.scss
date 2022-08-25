@@ -11,18 +11,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
-.nav{
-    display: flex;
-    justify-content: end;
-    padding-top: 2em;
-    font-size: large;
-}
-.fondoNav{
-    background: rgb(88, 24, 24);
-}
-h2{
-    color: rgb(88, 24, 24);
-}
+
 nav ul li{
     list-style-type: none;
 }

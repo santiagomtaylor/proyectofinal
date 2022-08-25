@@ -7,6 +7,20 @@
 @import "staff";
 @import "operaciones";
 
+/*declaro las áreas de mi grilla*/
+
+.articleFranquicias{
+    background-color: $backgroundRGB;
+}
+
+nav{
+    grid-area: nav;
+}
+
+.galeriaFranquicias{
+    grid-area: galeria;
+    background-color: $backgroundRGB;
+}
 
 /*empieza Responsive Design*/
 
@@ -63,6 +77,12 @@
     }
     .parrafoPadre3{
         margin-top: 1em;
-        line-height: 30px;
+    }
+}
+
+@media (min-width: 1600px){
+    img{
+        width: 500px;
+        height: 380px;
     }
 }
