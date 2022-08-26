@@ -33,8 +33,8 @@ footer {
 
 img {
   border: 8px solid black;
-  width: 300px;
-  height: 250px;
+  width: 246px;
+  height: 230px;
   margin-top: 15px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -210,7 +210,7 @@ h2 {
 }
 @media (min-width: 1024px) {
   .imgCarousel {
-    width: 496px;
+    width: 408px;
     height: 400px;
     margin-top: 20px;
   }
